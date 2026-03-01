@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvJobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvSeekerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applicant: John Doe"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: PENDING"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvAppliedDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Applied: Today"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvCoverLetter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cover letter text..."
+            android:textSize="14sp"
+            android:layout_marginBottom="12dp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/btnReject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reject"
+                android:layout_marginEnd="8dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:backgroundTint="@android:color/holo_red_light"/>
+
+            <Button
+                android:id="@+id/btnAccept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accept"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:backgroundTint="@android:color/holo_green_light"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

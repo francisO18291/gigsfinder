@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "637920171398",
+    "project_id": "gigsfinder-6f986",
+    "storage_bucket": "gigsfinder-6f986.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637920171398:android:e8eda9d8f31abf55b9c807",
+        "android_client_info": {
+          "package_name": "com.example.gigsfinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl0Raio7g1IubRCHkwrsaGPBQj-MA7yBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

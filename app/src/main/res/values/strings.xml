@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GIGS finder</string>
+    <string name="welcome">Welcome to Local Job Finder</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="job_seeker">Job Seeker</string>
+    <string name="employer">Employer</string>
+    <string name="post_job">Post Job</string>
+    <string name="apply">Apply</string>
+    <string name="profile">Profile</string>
+    <string name="applications">Applications</string>
+    <string name="logout">Logout</string>
+    <string name="job_title">Job Title</string>
+    <string name="job_description">Job Description</string>
+    <string name="location">Location</string>
+    <string name="pay_rate">Pay Rate</string>
+    <string name="job_type">Job Type</string>
+    <string name="duration">Duration</string>
+</resources>

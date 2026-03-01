@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="100dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply for this Job"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cover Letter (Optional)"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/etCoverLetter"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="Tell the employer why you're a good fit..."
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        tools:ignore="Autofill,HardcodedText,VisualLintTextFieldSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_marginEnd="8dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Application"
+            android:background="@drawable/button_background"
+            tools:ignore="ButtonStyle,HardcodedText" />
+
+    </LinearLayout>
+
+</LinearLayout>
